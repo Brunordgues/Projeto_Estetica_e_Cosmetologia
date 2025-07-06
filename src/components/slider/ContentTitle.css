@@ -1,0 +1,12 @@
+.slider-content-title {
+    margin-bottom: 20px;
+}
+
+.slider-content-title > h2 {
+    font-size: 1.4rem;
+}
+
+.slider-content-title > h3 {
+    margin: 5px 0 15px 0;
+    color: gray;
+}

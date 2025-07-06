@@ -1,0 +1,60 @@
+.solicitacao-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.solicitacao-status {
+    width: fit-content;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-bottom: 8px;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.322);
+}
+
+.solicitacao-status.Aprovado {
+    background-color: var(--color-1);
+}
+
+.solicitacao-status.Recusado {
+    background-color: rgb(182, 29, 29);
+}
+
+.solicitacao-status.Andamento {
+    background-color: rgb(255, 208, 0);
+}
+
+.solicitacao-status.Análise {
+    background-color: rgb(255, 153, 0);
+}
+
+.solicitacao-content {
+    font-weight: 500;
+    margin-bottom: 13px;
+    font-size: 1.35rem;
+}
+
+#solicitacao-button-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 25px auto 20px auto;
+    gap: 10px;
+}
+
+.solicitacao-button {
+    height: 55px;
+    border: none;
+    color: var(--color-2);
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.solicitacao-button.red {
+    background-color: #C31414;
+}
+
+.solicitacao-button.green {
+    background-color: #029046;
+}

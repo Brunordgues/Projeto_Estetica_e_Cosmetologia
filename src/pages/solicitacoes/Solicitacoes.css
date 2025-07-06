@@ -1,0 +1,18 @@
+#solicitacoes-not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;    
+}
+
+#solicitacoes-not-found > svg {
+    font-size: 270px;
+    color: rgba(196, 196, 196, 0.486);
+}
+
+#solicitacoes-not-found > p {
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(104, 104, 104);
+}

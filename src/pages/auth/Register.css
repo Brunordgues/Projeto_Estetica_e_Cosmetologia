@@ -1,0 +1,14 @@
+#register-container > form {
+    min-height: calc(100vh - var(--status-bar-space) - var(--auth-header-height) - var(--auth-header-margin-bottom) - 10px);
+    display: flex;
+    padding-bottom: 10px;
+    flex-direction: column;
+}
+
+#register-container > form > .auth-button {
+    transform: translateY(-20px);
+}
+
+#register-button-space {
+    height: 50px;
+}

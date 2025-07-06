@@ -1,0 +1,20 @@
+:root {
+    --auth-header-height: 300px;
+    --auth-header-margin-bottom: 30px;
+}
+
+#auth-header {
+    background-color: var(--color-1);
+    text-align: center;
+    height: var(--auth-header-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: var(--status-bar-space);
+    margin-bottom: var(--auth-header-margin-bottom);
+}
+
+#auth-header > h2 {
+    color: white;
+    margin-top: var(--ion-safe-area-top);
+}

@@ -1,0 +1,81 @@
+.solicitacao-card {
+    display: flex;
+    padding-left: 20px;
+}
+
+.solicitacao-card-body-container {
+    position: relative;
+}
+
+.solicitacao-card-body-container::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 5px;
+    width: 5px;
+    height: 120%;
+    transform: translate(calc(-50% - 20px), -10%);
+}
+
+.solicitacao-card-body-container.Aprovado::before {
+    background-color: var(--color-1);
+}
+
+.solicitacao-card-body-container.Recusado::before {
+    background-color: rgb(182, 29, 29);
+}
+
+.solicitacao-card-body-container.Andamento::before {
+    background-color: rgb(255, 208, 0);
+}
+
+.solicitacao-card-body-container.Análise::before {
+    background-color: rgb(255, 153, 0);
+}
+
+.solicitacao-card-body-container > h4 {
+    font-size: 1.38rem;
+    margin-bottom: 6px;
+}
+
+.solicitacao-card-body-container > h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.solicitacao-card-body-container > p {
+    font-weight: 600;
+}
+
+.solicitacao-card-status-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.solicitacao-card-status {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+
+.solicitacao-card-status.Aprovado {
+    background-color: var(--color-1);
+}
+
+.solicitacao-card-status.Recusado {
+    background-color: rgb(182, 29, 29);
+}
+
+.solicitacao-card-status.Andamento {
+    background-color: rgb(255, 208, 0);
+}
+
+.solicitacao-card-status.Análise {
+    background-color: rgb(255, 153, 0);
+}

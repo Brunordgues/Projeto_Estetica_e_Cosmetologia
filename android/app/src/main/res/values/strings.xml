@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">solicitacoes_sistema</string>
+    <string name="title_activity_main">solicitacoes_sistema</string>
+    <string name="package_name">com.solicitacoes_sistema.app</string>
+    <string name="custom_url_scheme">com.solicitacoes_sistema.app</string>
+</resources>

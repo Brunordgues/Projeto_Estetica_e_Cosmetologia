@@ -1,0 +1,7 @@
+{
+  "name": "solicitacoes_sistema",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

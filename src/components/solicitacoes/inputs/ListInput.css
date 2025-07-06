@@ -1,0 +1,19 @@
+.slider-list-input-container > h4 {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.slider-list-input {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 1px 15px;
+    width: calc(100% - 30px);
+    border-radius: 10px;
+    background-color: var(--color-2);
+    height: 60px;
+}
+
+.slider-list-input > p {
+    font-size: 1.05rem;
+}

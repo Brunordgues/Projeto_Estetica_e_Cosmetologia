@@ -1,0 +1,11 @@
+#root {
+  max-width: 800px;
+  margin: 0 auto var(--keyboard-height, 0px) auto;
+  min-height: 100vh;
+}
+
+#container {
+  min-height: inherit;
+  overflow: auto;
+  background-color: var(--color-2);
+}

@@ -1,0 +1,16 @@
+.slider-date-input-container > h4 {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.slider-date-input {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0px 15px;
+    width: calc(100% - 30px);
+    border-radius: 10px;
+    background-color: var(--color-2);
+    height: 60px;
+    font-size: 1.05rem;
+}

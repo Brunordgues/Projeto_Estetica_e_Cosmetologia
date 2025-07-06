@@ -1,0 +1,12 @@
+.slider-content-button {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-6);
+    border: none;
+    padding: 15px 0;
+    border-radius: 7px;
+    width: 65%;
+    color: var(--color-2);
+    margin: 25px auto 0 auto;
+    font-size: 1.1rem;
+}

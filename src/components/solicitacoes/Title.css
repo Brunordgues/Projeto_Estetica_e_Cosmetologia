@@ -1,0 +1,7 @@
+.title {
+    margin: 18px 0;
+}
+
+.title > h3 {
+    font-size: 1.4rem;
+}
