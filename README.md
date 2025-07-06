@@ -15,7 +15,7 @@ Além disso, o projeto envolveu o uso de prototipação com ferramentas como Fig
 
 ## Tecnologia Utilizadas
 *Ionic + Capacitor:* Utilizado para criar aplicações híbridas com acesso a recursos nativos dos dispositivos;
-*React + TypeScript:* Utilizados para a construção da interface do usuário com tipagem estática e arquitetura baseada em componentes;
+*React + TypeScript + Vite:* Utilizados para a construção da interface do usuário com tipagem estática e arquitetura baseada em componentes;
 *Banco de Dados:* MySQL
 
 ## ⚙️ Instalação
